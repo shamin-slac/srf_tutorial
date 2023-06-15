@@ -47,7 +47,7 @@ class SimpleGUI(Display):
         # https://www.learnpython.org/en/Partial_functions
         self.ui.checkbox_a.stateChanged.connect(partial(self.manage_options,
                                                         CHECKBOX_A_KEY))
-        self.ui.checkbox_b.stateChanged.connect(partial(self.manage_options,
+        self.ui.checkbox_d.stateChanged.connect(partial(self.manage_options,
                                                         CHECKBOX_B_KEY))
         
         # initializing the status label so that it prints the initial state
